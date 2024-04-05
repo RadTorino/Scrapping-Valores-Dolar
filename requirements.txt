@@ -1,0 +1,4 @@
+chromedriver_py
+openpyxl
+python-dotenv
+selenium
