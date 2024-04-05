@@ -14,7 +14,8 @@ import requests
 from lxml import html
 
 ## La función main llama a las funciones encargadas del webscrapping y desempaca los valores que cada una devuelve. 
-## Luego
+## Luego abre un documento excel y añade los valores scrappeados.
+## Finalmente cierra el documento e imprime un mensaje a pantalla para confirmar que el programa corrió correctamente. 
 
 def main():
     load_dotenv()
